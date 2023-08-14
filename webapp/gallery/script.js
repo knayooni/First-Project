@@ -73,8 +73,7 @@ function getBucketImages() {
   // AWS SDK를 초기화합니다.
   AWS.config.update({
     region: 'ap-northeast-2', // 리전을 설정합니다.
-    credentials: new AWS.Credentials('AKIAZBPCYDIBQA7FNCWY', 'V8KLmUHwocGxjFMontLze7gVPes9CWanTdOeA0/Z') // 액세스 키와 비밀 액세스 키를 설정합니다.
-  });
+    
 
   // S3 객체를 생성합니다.
   var s3 = new AWS.S3();
